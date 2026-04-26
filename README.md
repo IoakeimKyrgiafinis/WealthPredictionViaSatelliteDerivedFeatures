@@ -2,7 +2,7 @@
 
 Predicting relative wealth across the developing world using satellite-derived features and DHS survey data — no ground truth required at prediction time.
 
-![Global Predicted Wealth](global_predicted_wealth_25km.png)
+![Global Predicted Wealth](figures/global_predicted_wealth_25km.png)
 
 ---
 
