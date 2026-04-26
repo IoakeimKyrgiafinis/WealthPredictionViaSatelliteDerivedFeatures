@@ -28,6 +28,10 @@ The key motivation: official wealth and poverty statistics are often unavailable
 | Features | 34 satellite-derived |
 | Model | LightGBM |
 
+### Model Fit (Predicted vs Actual)
+
+![R2 Scatter](figures/r2_scatter.png)
+
 ### Top Predictive Features
 
 | Feature | Description |
@@ -41,6 +45,8 @@ The key motivation: official wealth and poverty statistics are often unavailable
 | `lst_day_mean` | Daytime land surface temperature |
 
 Rainfall and elevation dominate — reflecting the strong role of agricultural potential and geographic accessibility in driving wealth in developing regions.
+
+![Feature Importance](figures/feature_importance.png)
 
 ---
 
