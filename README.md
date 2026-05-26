@@ -8,7 +8,7 @@ Predicting relative wealth across the developing world using satellite-derived f
 
 ## Overview
 
-This project builds a machine learning pipeline that estimates relative wealth at 25km resolution across the developing world, using only freely available satellite imagery as input. The model is trained on ~1.2 million DHS (Demographic and Health Survey) cluster observations across **42 countries and 17 survey years (2003–2024)**, achieving an **R² of 0.69** on held-out data.
+This project builds a machine learning pipeline that estimates relative wealth at 25km resolution across the developing world, using only freely available satellite imagery as input. The model is trained on ~1.2 million DHS cluster statistics (34 features per cluster) (Demographic and Health Survey) cluster observations across **42 countries and 17 survey years (2003–2024)**, achieving an **R² of 0.69** on held-out data.
 
 The key motivation: official wealth and poverty statistics are often unavailable, outdated, or too coarse to be actionable at the local level in many developing countries. Satellite imagery is global, consistent, and updated continuously — making it a powerful proxy for ground-level conditions.
 
@@ -22,7 +22,7 @@ The key motivation: official wealth and poverty statistics are often unavailable
 |--------|-------|
 | R² Score | 0.69 |
 | MAE | 0.41 (standardized units) |
-| Training samples | ~935,000 DHS clusters |
+| Training samples | ~935,000 DHS clusters statistics |
 | Countries | 42 |
 | Survey years | 2003–2024 |
 | Features | 34 satellite-derived |
